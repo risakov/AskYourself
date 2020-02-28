@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YfL-v3-1tg">
+                                <rect key="frame" x="29" y="0.0" width="262" height="480"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Спроси себя!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jh-ze-79a">
+                                <rect key="frame" x="29" y="0.0" width="262" height="480"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8jh-ze-79a" firstAttribute="height" secondItem="YfL-v3-1tg" secondAttribute="height" id="PjE-Sd-S4v"/>
+                            <constraint firstItem="8jh-ze-79a" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ydt-77-L3A"/>
+                            <constraint firstItem="8jh-ze-79a" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="iNf-Bq-88w"/>
+                            <constraint firstItem="YfL-v3-1tg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jfJ-cS-pE1"/>
+                            <constraint firstItem="8jh-ze-79a" firstAttribute="width" secondItem="YfL-v3-1tg" secondAttribute="width" id="l0s-Nt-aYK"/>
+                            <constraint firstItem="YfL-v3-1tg" firstAttribute="centerX" secondItem="8jh-ze-79a" secondAttribute="centerX" id="oYc-iq-tVf"/>
+                            <constraint firstItem="YfL-v3-1tg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xdc-TW-Fgx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.399999999999999" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
